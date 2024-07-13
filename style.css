@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero  img {
+    border-radius: 15px;
+    max-width:400px;
+    
+}
+.hero h3 {
+    color: #4831d4;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero, .sub-hero{
+    background: linear-gradient(to right, #4831d4 0%, #4831d4 60%,  #ccf381 60%, #ccf381 100% );
+  
+}
+span {
+    text-align: center;
+    
+}
+.hero {
+    display: flex;
+    gap: 20px;
+    padding: 70px 100px 50px 50px;
+}
+.hero h2 {
+    color:#ccf381;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-right: 150px;
+   
+        
+    
+}
+.sub-hero {
+    display: flex;
+    gap: 70px;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color: #ccf381;
+}
+
+.about {
+    display: flex;
+    gap: 100px;
+    
+}
+.coach {
+    margin-top: 20%;
+    margin-right: 7%;
+
+}
+.coach h3 {
+    margin-left: 10%;
+    margin-bottom: 4%;
+    font-size: 30px;
+    font-weight: 900;
+    color:#4831d4;
+}
+.coach p {
+    color:  #451f66;
+
+}
+
+
+
+.developer {
+    margin-left: 4%;
+    margin-top: 5%;
+    font-size: 16px;
+   
+}
+.developer h3 {
+    margin-left: 10%;
+    margin-bottom: 7%;
+    font-size: 30px;
+    font-weight: 900;
+    color: #4831d4;
+}
+.developer p {
+    color: #451f66;
+}
+#cs-pattern-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 95%;
+}
+
+.skil {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill img {
+    border-radius: 10px;
+
+}
+.skill h2 {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    font-size: 30px;
+    font-weight: 900;
+    color:#4831d4;
+}
+.skill h3 {
+    text-align: center;
+    margin-top: 2%;
+    color: #451f66;
+}
+.project h1 {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    font-size: 30px;
+    color:#4831d4;
+}
+.proj h4 {
+    text-align: center;
+    margin-top: 2%;
+    color: #451f66;
+}
+
+
+.proj img {
+    width: 198px;
+    height: 167px;
+    border-radius: 12px;
+}
+
+.proj {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.contact {
+    margin-top: 7%;
+  
+    
+}
+.contact h1 {
+    color: #4831d4;
+    font-size: 40px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.contact h3 {
+    color: #451f66;
+    font-size: 23px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+ .drop-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+ }
+ .drop-message form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+
+ }
+ .drop-message form input  {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #451f66;
+    width: 500px;
+ }
+  
+ .drop-message form button {
+    width: 70px;
+    color: #4831d4;
+    border:1.5px solid #4831d4;
+    border-radius: 4px;
+    padding: 10px 12px;
+    cursor: pointer;
+ }
+ .drop-message form button:hover{
+    background-color: #4831d4;
+    color: white;
+ }
+ .drop-message form label {
+    color: #3d155f80;
+    margin-right: 33%;
+ }
+
+ .media-link {
+    margin-top: 4%;
+    padding: 40px;
+    background-color: #3d155f;
+    color: #ccf381;
+    text-align: center;
+ }
+.resume  {
+    margin-bottom: 5%;
+    color: #ccf381;
+}
+.resume a {
+    color: #ccf381;
+   text-decoration: none;
+}
+.resume a:hover {
+    background-color: #4f4e50;
+    padding: 5px;
+    border-radius: 5px;
+}
+.link {
+    border-top: 1px solid #ccf381;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.link h4{
+    color: white;
+}
+.s-link {
+    display: flex;
+    gap: 20px;
+}
+.s-link a {
+    color: #ccf381;
+    text-decoration: none;
+}
+h5 {
+    margin-top: 5%;
+    color: white;
+}
+.s-link a:hover{
+    background-color: #4f4e50;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hero img{
+        width: 300px;
+      
+    }
+    .about {
+        display: flex;
+        gap: 60px;
+        
+    }
+    .developer p {
+        width: 150px;
+    }
+
+    .drop-message form label {
+        margin-right:53%;
+     }
+}
+@media (max-width:320px) {
+    
+}
+
+
+
+
+
+
+
